@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+	         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean class="com.ddl.egg.mq.mongo.config.MongoConfig">
+        <property name="username" value="${r.mongo.username}"/>
+        <property name="password" value="${r.mongo.password}"/>
+        <property name="dbname" value="${r.mongo.dbname}"/>
+        <property name="servers" value="${r.mongo.servers}"/>
+        <property name="replicaSetName" value="${r.mongo.replicaSetName}"/>
+    </bean>
+
+</beans>

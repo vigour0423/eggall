@@ -5,7 +5,7 @@
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.hk.egg</groupId>
+        <groupId>com.ddl.egg</groupId>
         <artifactId>egg-all</artifactId>
         <version>1.2.1</version>
         <relativePath>../pom.xml</relativePath>
@@ -16,7 +16,8 @@
     <properties>
         <!-- 主要依赖库的版本定义 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.version>1.8</jdk.version>
+        <maven.compiler.source>10.0.1</maven.compiler.source>
+        <maven.compiler.target>10.0.1</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
